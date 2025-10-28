@@ -160,7 +160,7 @@ python port_scanner.py -h
 - Add UDP scanning mode (requires different logic and caution).
 - Add `--verbose` to print closed/filtered port info or debugging details.
 - Support IPv6 via `socket.getaddrinfo()` and handling different families.
-
+  All these updates will be added by me shortly
 ---
 
 ## Disclaimer & license
@@ -170,4 +170,3 @@ This project is intended to be distributed under the MIT License. See the `LICEN
 
 ---
 
-**One-liner:** *Simple Port Scanner — educational Python TCP port scanner. Use responsibly; scan only with permission.*
