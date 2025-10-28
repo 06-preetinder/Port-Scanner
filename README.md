@@ -153,14 +153,14 @@ python port_scanner.py -h
 
 ---
 
-## Optional enhancements (ideas)
+## Optional enhancements (ideas-will be added shortly)
 - Add `--timeout <seconds>` to let users set socket timeout from CLI (easy and useful).
 - Add `--threads <n>` or `--workers` using `concurrent.futures.ThreadPoolExecutor` for concurrent scanning.
 - Add `--output <file>` to save results (CSV/JSON).
 - Add UDP scanning mode (requires different logic and caution).
 - Add `--verbose` to print closed/filtered port info or debugging details.
 - Support IPv6 via `socket.getaddrinfo()` and handling different families.
-  All these updates will be added by me shortly
+  
 ---
 
 ## Disclaimer & license
